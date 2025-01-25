@@ -1,0 +1,12 @@
+.bg {
+    background-color: lightpink;
+    color: black;
+
+}
+.sz, .sz2{
+    font-family: "Verdana";
+}
+.sz1 {
+    font-family: 'DejaVu sans', sans-serif;
+    font-size: 24px;
+}
