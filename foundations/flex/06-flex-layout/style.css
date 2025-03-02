@@ -37,6 +37,7 @@ ul {
   list-style-type: none;
   padding:0px;
   margin:0px;
+  min-width: 0;
 }
 
 a {
@@ -49,11 +50,14 @@ a {
   flex-direction: row;
   justify-content: space-between;
   padding: 16px;
+  gap: 14px;
+  flex-wrap:wrap;
 }
 
 .header .left-links, .header .right-links, .footer .left-links, .footer .right-links{
   display: flex;
   gap: 14px;
+  flex-wrap: wrap;
 }
 
 .content {
